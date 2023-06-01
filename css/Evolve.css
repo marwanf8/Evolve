@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-image: url('gym.jpg');
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-size: 24px; /* Adjust the font size to your preference */
+    /* font-family: "Arial", sans-serif; Set a custom font family */
+    text-align: center; /* Center align the text */
+    line-height: 1.5; /* Adjust the line height for spacing */
+    color: white;
+    background-color:#333;
+}
+  
+  /* Optional: Add additional styles to enhance the visual appearance */
+  p::first-line {
+    font-weight: bold; /* Make the first line bold */
+  }
+
+  p::before {
+    content: "\201C"; /* Add opening quotation mark */
+    font-size: 32px; /* Adjust the size of the quotation mark */
+  }
+
+  p::after {
+    content: "\201D"; /* Add closing quotation mark */
+    font-size: 32px; /* Adjust the size of the quotation mark */
+  }
+.navbar {
+    background-color: #f58420;
+    overflow: hidden;
+    text-align: right; /* Aligns the items to the right */
+    background-color: #333; /* Set the background color of the navbar */
+    color: #fff;
+  }
+
+  .navbar a {
+    display: inline-block; /* Displays the items in a line */
+    color: #ddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #1858a8;
+  }
+
+  /* .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  } */

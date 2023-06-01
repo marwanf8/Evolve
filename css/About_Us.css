@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    background-color: #333;
+}
+h1 {
+    font-size: 70px;
+    position: relative;
+    padding-left: 800px;
+    color: #1858a8;
+}
+h1::before {
+    content: "";
+    background-image: url('dawy1.PNG'); /* Replace 'image1.png' with the path to your image */
+    background-size: cover;
+    position: absolute;
+    top: 550%;
+    left: 450px;
+    transform: translateY(-100%);
+    width: 320px; /* Adjust the width and height of the image */
+    height: 250px;
+    border-radius: 20%; /* Create a circular shape */
+}
+h3 {
+    font-size: 30px;
+    color: #f58420;
+}
+h3, p {
+    position: relative;
+    padding-left: 800px; /* Adjust the padding to create space for the image */
+}
+h3::before {
+    content: "";
+    background-image: url('salah.PNG'); /* Replace 'image2.png' with the path to your image */
+    background-size: cover;
+    position: absolute;
+    top: 550%;
+    left: 150px;
+    transform: translateY(-50%);
+    width: 350px; /* Adjust the width and height of the image */
+    height: 250px;
+    border-radius: 20%; /* Create a circular shape */
+}
+
+p {
+    font-size: 20px;
+}
+
